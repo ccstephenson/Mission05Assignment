@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Price Calculator";
+}
+<h1>Gymnastics Tutoring Cost Calculator</h1>
+<label for="hours">Enter Hours:</label>
+<input type="number" id="hours" min="1" required>
+<label for="rate">Hourly Rate:</label>
+<input type="text" id="rate" value="$20" readonly>
+<button id="calculate">Calculate</button>
+<p>Total Cost: <span id="total"></span></p>
+<a href="/">Back to Home</a>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/js/calculator.js"></script>
